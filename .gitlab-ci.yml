@@ -1,0 +1,6 @@
+image: docker
+services:
+  - docker:dind
+build:
+  script:
+    - echo 'Test runner'
